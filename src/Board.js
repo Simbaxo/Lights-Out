@@ -35,6 +35,9 @@ class Board extends Component {
     super(props);
 
     // TODO: set initial state
+    state = {
+
+    }
   }
 
   /** create a board nrows high/ncols wide, each cell randomly lit or unlit */
@@ -73,6 +76,10 @@ class Board extends Component {
   /** Render game board or winning message. */
 
   render() {
+
+    <div>
+
+    </div>
 
     // if the game is won, just show a winning msg & render nothing else
 
